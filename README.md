@@ -19,10 +19,9 @@ Although widget libraries can be imported from both QMC and Dev Hub, the uniquen
 4. Locate the ZIP file containing the widget library to import and then click **Open**.
 5. The imported widget library can now be accessed from Dev Hub.
 
+## Demo App
 
-### Prerequisites
-
-What things you need to install the software and how to install them
+Don't forget to check the demo app (QVF file) included in this package. It contains some examples about
 
 ```
 Give examples

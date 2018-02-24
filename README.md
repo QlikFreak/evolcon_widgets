@@ -7,7 +7,7 @@ One Paragraph of project description goes here
 #### Qlik Sense Dektop
 1. Download the ZIP file.
 2. Unzip the package.
-3. Copy the new folder in this location: C:\Users\?????\Documents\Qlik\Sense\Extensions\"
+3. Copy the new folder in this location: C:/Users/?????/Documents/Qlik/Sense/Extensions/"
 4. Enjoy
 
 #### Qlik Sense Server

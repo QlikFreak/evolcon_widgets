@@ -1,5 +1,5 @@
 # Evolcon Widget Library
-One Paragraph of project description goes here
+This is a widget library developed by Evolcon (well... duh...). It contains several objects
 
 ## Getting Started
 
@@ -30,7 +30,11 @@ This widget only receives one expression and it has 4 blocks:
 
 * When you define the width of the image, the height is calculated automatically.
 * **Right Padding** refers to the distance (pixels) between the image and the numbers.
-* All the labels can be static (just type in whatever you want) or dynamic (using Qlik expressions like =money(sum(Sales)))
+* All the labels can be static (just type in whatever you want) or dynamic (using Qlik expressions) 
+```
+=money(sum(Sales))
+```
+* fdsfds
 
 ## Authors
 * **Evolcon** [Visit Website](http://evolcon.com/)

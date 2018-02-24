@@ -16,7 +16,12 @@ Although widget libraries can be imported from both QMC and Dev Hub, the uniquen
 ## Demo App
 Don't forget to check the demo app included in this package. It contains some examples of all the widgets in the library.
 
+## QlikFreak KPI
+Simple KPI with an image on the left. It receives only one expression.
+![alt text](https://qlikfreak.files.wordpress.com/2018/02/35_100.png)
 
 ## Authors
 * **Evolcon** [Visit Website](http://evolcon.com/)
 * **Julian Villafuerte:** [QlikFreak](https://qlikfreak.wordpress.com/)  -  [Twitter](https://twitter.com/qlikfreak)
+
+

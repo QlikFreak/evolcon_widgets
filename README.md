@@ -1,10 +1,20 @@
-# Project Title
+# Evolcon Widget Library
 
 One Paragraph of project description goes here
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+### Qlik Sense Dektop
+
+### Qlik Sense Server
+Although widget libraries can be imported from both QMC and Dev Hub, the uniqueness check of a widget is only performed when importing from Dev Hub. Therefore, we strongly recommended you import all widget libraries from Dev Hub.
+
+1. Download the ZIP file.
+2. Open the Qlik Dev Hub.
+3. On the Dev Hub start page, click **+** and select **Import widget library**.
+4. Locate the ZIP file containing the widget library to import and then click **Open**.
+5. The imported widget library can now be accessed from Dev Hub.
+
 
 ### Prerequisites
 

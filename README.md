@@ -20,6 +20,7 @@ Don't forget to check the demo app included in this package. It contains some ex
 Simple KPI with an image on the left.
 <p align="center"><img src="https://qlikfreak.files.wordpress.com/2018/02/35_1001.png"></p>
 This widget only receives one expression and it has 4 blocks:
+
 * **Image**: Link to the image file (JPG, PNG, SVG, etc).
 * **Title:** First line. Usually displays the KPI name, but it can be hidden.
 * **KPI:** Big number in the middle (your expression).

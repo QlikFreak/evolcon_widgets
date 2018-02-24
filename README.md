@@ -32,9 +32,20 @@ This widget only receives one expression and it has 4 blocks:
 * **Right Padding** refers to the distance (pixels) between the image and the numbers.
 * All the labels can be static (just type in whatever you want) or dynamic (using Qlik expressions) 
 ```
-=money(sum(Sales))
+='Amount (USD): ' & money(sum(Sales))
 ```
-* fdsfds
+* You can use RGB, HEX or [CSS colors](https://www.w3schools.com/cssref/css_colors.asp). If the color is static, you can type it directly in the box:
+```
+rgb(100, 50, 10)
+turquoise
+#FFF000
+```
+If you want to use an expression, you can do something like this:
+```
+=if(sum(Sales) > 1000, rgb(255, 50, 10), 
+ if(sum(Sales) > 500, 'turquoise', '#FFF000'))
+
+```
 
 ## Authors
 * **Evolcon** [Visit Website](http://evolcon.com/)

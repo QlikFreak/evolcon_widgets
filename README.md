@@ -16,5 +16,5 @@ Give examples
 
 ## Authors
 
-* **Evolcon** - *Evolution Consulting* [Visit Website](http://evolcon.com/)
+* **Evolcon** *(Evolution Consulting):* [Visit Website](http://evolcon.com/)
 * **Julian Villafuerte:** [QlikFreak](https://qlikfreak.wordpress.com/)  -  [Twitter](https://twitter.com/qlikfreak)

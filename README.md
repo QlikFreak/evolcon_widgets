@@ -18,7 +18,7 @@ Don't forget to check the demo app included in this package. It contains some ex
 
 ## QlikFreak KPI
 Simple KPI with an image on the left. It receives only one expression.
-<img src="https://qlikfreak.files.wordpress.com/2018/02/35_1001.png">
+<img src="https://qlikfreak.files.wordpress.com/2018/02/35_1001.png" align="center">
 
 ## Authors
 * **Evolcon** [Visit Website](http://evolcon.com/)

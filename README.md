@@ -14,7 +14,7 @@ Although widget libraries can be imported from both QMC and Dev Hub, the uniquen
 3. Locate the ZIP file containing the widget library to import and then click **Open**.
 
 #### Demo App
-Don't forget to check the demo app included in this package. It contains some examples of all the widgets in the library.
+Don't forget to check the demo app included in this package. It contains some examples of all the widgets in the library. Even though there are some pointers in this guide, it's easier to understand how to configure them by looking at this QVF.
 
 ## QlikFreak KPI
 Simple KPI with an image on the left.
@@ -28,6 +28,7 @@ This widget only receives one expression and it has 4 blocks:
 
 ### Notes
 
+* The image address doesn't need quotes or equals sign. Just past the link.
 * When you define the width of the image, the height is calculated automatically.
 * **Right Padding** refers to the distance (pixels) between the image and the numbers.
 * All the labels can be static (just type in whatever you want) or dynamic (using Qlik expressions) 
@@ -46,6 +47,9 @@ If you want to use an expression, you can do something like this:
  if(sum(Sales) > 500, 'turquoise', '#FFF000'))
 
 ```
+## Evolcon KPI
+KPI + labels + symbols + lines.
+<p align="center"><img src="https://qlikfreak.files.wordpress.com/2018/02/35_101.png"></p>
 
 ## Authors
 * **Evolcon** [Visit Website](http://evolcon.com/)

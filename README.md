@@ -4,13 +4,15 @@ One Paragraph of project description goes here
 
 ## Getting Started
 
-#### Qlik Sense Dektop
+### Installation
+
+##### Qlik Sense Dektop
 1. Download the ZIP file.
 2. Unzip the package.
 3. Copy the new folder in this location: C:\Users\?????\Documents\Qlik\Sense\Extensions\"
 4. Enjoy
 
-#### Qlik Sense Server
+##### Qlik Sense Server
 Although widget libraries can be imported from both QMC and Dev Hub, the uniqueness check of a widget is only performed when importing from Dev Hub. Therefore, we strongly recommended you import all widget libraries from Dev Hub.
 
 1. Download the ZIP file.
@@ -19,7 +21,7 @@ Although widget libraries can be imported from both QMC and Dev Hub, the uniquen
 4. Locate the ZIP file containing the widget library to import and then click **Open**.
 5. The imported widget library can now be accessed from Dev Hub.
 
-## Demo App
+### Demo App
 
 Don't forget to check the demo app (QVF file) included in this package. It contains some examples about
 

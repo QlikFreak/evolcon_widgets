@@ -13,12 +13,18 @@ Although widget libraries can be imported from both QMC and Dev Hub, the uniquen
 2. Open the Qlik Dev Hub. On the start page, click **+** and select **Import widget library**.
 3. Locate the ZIP file containing the widget library to import and then click **Open**.
 
-## Demo App
+#### Demo App
 Don't forget to check the demo app included in this package. It contains some examples of all the widgets in the library.
 
 ## QlikFreak KPI
-Simple KPI with an image on the left. It receives only one expression.
+Simple KPI with an image on the left.
 <p align="center"><img src="https://qlikfreak.files.wordpress.com/2018/02/35_1001.png"></p>
+This widget only receives one expression and it has 4 blocks:
+* Image: Link to the image file (JPG, PNG, SVG, etc).
+* Title: First line. Usually displays the KPI name, but it can be hidden.
+* KPI: Big number in the middle (your expression).
+* Comment: Third line. Useful for comments of comparisons. Can be hidden as well.
+
 
 ## Authors
 * **Evolcon** [Visit Website](http://evolcon.com/)

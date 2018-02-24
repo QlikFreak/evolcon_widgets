@@ -26,6 +26,11 @@ This widget only receives one expression and it has 4 blocks:
 * **KPI:** Big number in the middle (your expression).
 * **Comment:** Third line. Useful for comments of comparisons. Can be hidden as well.
 
+#### Notes
+
+* When you define the width of the image, the height is calculated automatically.
+* **Right Padding** refers to the distance (pixels) between the image and the numbers.
+* All the labels can be static (just type in whatever you want) or dynamic (using Qlik expressions like =money(sum(Sales)))
 
 ## Authors
 * **Evolcon** [Visit Website](http://evolcon.com/)

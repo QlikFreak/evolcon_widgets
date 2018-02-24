@@ -49,7 +49,11 @@ If you want to use an expression, you can do something like this:
 ```
 ## Evolcon KPI
 KPI + labels + symbols + lines.
-<p align="center"><img src="https://qlikfreak.files.wordpress.com/2018/02/35_101.png"></p>
+<p align="center"><img src="https://qlikfreak.files.wordpress.com/2018/02/35_1011.png"></p>
+This widget only receives one expression and it has 6 parts:
+
+* **Image**: Link to the image file (JPG, PNG, SVG, etc).
+
 
 ## Authors
 * **Evolcon** [Visit Website](http://evolcon.com/)

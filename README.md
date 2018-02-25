@@ -4,7 +4,7 @@ This is a widget library developed by Evolcon (well... duh...). Right now, it co
 ## Table of Contents
 * [Getting Started](#getting-started)
 * [Demo App](#demo-app)
-* [QlikFreak KPI](#authors)
+* [QlikFreak KPI](#qlikfreak-kpi)
 * [Evolcon KPI](#evolcon-kpi)
 * [Super Relevant KPI](#super-relevant-kpi)
 * [History](#history)

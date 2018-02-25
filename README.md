@@ -2,6 +2,7 @@
 This is a widget library developed by Evolcon (well... duh...). Right now, it contains 3 KPI objects, but we will update it frequently adding more and more visualizations (or at least, that's the plan).
 
 ## Table of Contents
+[Getting Started](#evolcon kpi)
 [Authors](#authors)
 
 ## Getting Started

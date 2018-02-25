@@ -107,4 +107,5 @@ Simple KPI... Actually it was just an experiment... It's not thaaaat useful, but
 
 ## License
 Copyright © 2018, Julian Villafuerte. Released under the MIT license.
+
 If you create something cool based on this library, be sure to share it with us in [Twitter](https://twitter.com/intent/tweet?text=%40qlikfreak%20%40evolcon)! 

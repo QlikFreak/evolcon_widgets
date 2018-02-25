@@ -13,7 +13,7 @@ This is a widget library developed by Evolcon (well... duh...). Right now, it co
 
 ## Getting Started
 
-#### Qlik Sense Dektop
+#### Qlik Sense Desktop
 1. Download the package and unzip it.
 2. Copy the new folder to this location: C:/Users/?????/Documents/Qlik/Sense/Extensions/.
 
@@ -95,8 +95,9 @@ If you want to use an expression, you can do something like this:
 * If you increase the line width and make the color dynamic, you can create a weird/cool visual cue.
 
 ## Super Relevant KPI
-Simple KPI... Actually it was just an experiment... It's not thaaaat useful, but it looks cool.
+Simple KPI... Actually, it was just an experiment... It's not thaaaat useful, but it looks cool.
 <p align="center"><img src="https://qlikfreak.files.wordpress.com/2018/02/35_103.png"></p>
+Nothing to explain here. Just add your expression and that's it.
 
 ## History
 * Feb 25, 2018: Initial release. New widgets: QlikFreak KPI, Evolcon KPI, Super Relevant KPI.

@@ -88,8 +88,12 @@ If you want to use an expression, you can do something like this:
 Simple KPI... Actually it was just an experiment... It's not thaaaat useful, but it looks cool.
 <p align="center"><img src="https://qlikfreak.files.wordpress.com/2018/02/35_103.png"></p>
 
+## History
+* Feb 25, 2018: Initial release. New widgets: QlikFreak KPI, Evolcon KPI, Super Relevant KPI.
+
 ## Authors
 * **Evolcon** [Visit Website](http://evolcon.com/)
 * **Julian Villafuerte:** [QlikFreak](https://qlikfreak.wordpress.com/)  -  [Twitter](https://twitter.com/qlikfreak)
 
-
+## License
+Copyright © 2018, Julian Villafuerte. Released under the MIT license.

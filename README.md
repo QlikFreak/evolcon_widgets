@@ -15,7 +15,7 @@ This is a widget library developed by Evolcon (well... duh...). Right now, it co
 
 #### Qlik Sense Desktop
 1. Download the package and unzip it.
-2. Copy the new folder to this location: C:/Users/?????/Documents/Qlik/Sense/Extensions/.
+2. Copy the folder (Evolcon Widget Library) to this location: C:/Users/?????/Documents/Qlik/Sense/Extensions/.
 
 #### Qlik Sense Server
 Although widget libraries can be imported from both QMC and Dev Hub, the uniqueness check of a widget is only performed when importing from Dev Hub. Therefore, we strongly recommended you import all widget libraries from Dev Hub.

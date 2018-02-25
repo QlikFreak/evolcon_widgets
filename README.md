@@ -14,7 +14,7 @@ Although widget libraries can be imported from both QMC and Dev Hub, the uniquen
 3. Locate the ZIP file containing the widget library to import and then click **Open**.
 
 ## Demo App
-Don't forget to check the demo app included in this package. It contains multiple examples of all the widgets in the library. Even though there are some pointers in this guide, it's easier to understand how to configure them by looking at this file. If you want to have this app available in your hub, just copy the QVF in this location: C:/Users/?????/Documents/Qlik/Sense/Apps/
+Don't forget to check the demo app included in this package. It contains multiple examples of all the widgets in the library. Even though there are some good pointers in this guide, it's easier to understand how to configure the objects by looking at real applications. If you want to have this module available in your hub, just copy the QVF in this location: C:/Users/?????/Documents/Qlik/Sense/Apps/
 
 ## QlikFreak KPI
 Simple KPI with an image on the left.

@@ -1,0 +1,45 @@
+{
+  "name": "Super Relevant KPI",
+  "description": "Simple KPI... Actually, it was just an experiment... It's not thaaaat useful, but it looks cool.",
+  "author": "QlikFreak",
+  "library": "Evolcon",
+  "meta": {
+    "type": "kpi"
+  },
+  "properties": {
+    "measures": {
+      "min": 1,
+      "max": 1
+    },
+    "sections": [
+      {
+        "type": "header",
+        "order": 0,
+        "parent": "qw-pe-dropzone1-0",
+        "ref": "header1",
+        "label": "Presentation"
+      }
+    ],
+    "settings": [
+      {
+        "type": "string",
+        "expression": "optional",
+        "defaultValue": "20",
+        "order": 0,
+        "parent": "header1",
+        "ref": "title_size",
+        "label": "Title Font Size"
+      },
+      {
+        "type": "string",
+        "expression": "optional",
+        "defaultValue": "44",
+        "order": 1,
+        "parent": "header1",
+        "ref": "number_size",
+        "label": "Number Font Size"
+      }
+    ]
+  },
+  "dependencies": {}
+}

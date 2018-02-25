@@ -1,0 +1,63 @@
+<style>//=========================================================================
+// Parameters
+
+@image_width: {{settings.image_width}}px;
+@image_padding: {{settings.image_padding}}px;
+
+@title_size: {{settings.title_size}}px;
+@title_color: {{settings.title_color}};
+
+@number_size: {{settings.number_size}}px;
+@number_color: {{settings.number_color}};
+
+@comment_size: {{settings.comment_size}}px;
+@comment_color: {{settings.comment_color}};
+
+
+
+//=========================================================================
+// CSS
+
+.container {
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+
+.kpi_image img{
+	width: @image_width;
+	padding-right: @image_padding;
+}
+
+
+.kpi_labels {
+
+	.kpi_title{
+		font-size: @title_size;
+		color: @title_color;
+	}
+	
+	.kpi_number{
+		font-size: @number_size;
+		color: @number_color;
+	}
+	
+	.kpi_comment{
+		font-size: @comment_size;
+		color: @comment_color;
+	}
+}</style>
+<div><div class="container">
+
+	<div class="kpi_image">
+  		<img src="{{settings.image_address}}">
+	</div>
+  
+	<div class="kpi_labels">
+		<p class="kpi_title" ng-if="settings.show_title">{{settings.kpi_title}}</p>
+		<p class="kpi_number">{{data.rows[0].measures[0].qText}}</p>
+		<p class="kpi_comment" ng-if="settings.show_comment">{{settings.kpi_comment}}</p>
+	</div>
+
+</div></div>

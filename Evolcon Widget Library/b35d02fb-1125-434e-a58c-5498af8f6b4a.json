@@ -1,0 +1,169 @@
+{
+  "name": "QlikFreak KPI",
+  "description": "Simple KPI with an image on the left. #OldSchool",
+  "author": "QlikFreak",
+  "library": "Evolcon",
+  "meta": {
+    "type": "kpi"
+  },
+  "properties": {
+    "measures": {
+      "min": 1,
+      "max": 1
+    },
+    "dimensions": {
+      "max": 0,
+      "min": 0
+    },
+    "sections": [
+      {
+        "type": "header",
+        "order": 0,
+        "parent": "qw-pe-dropzone1-0",
+        "ref": "header1",
+        "label": "Image"
+      },
+      {
+        "type": "header",
+        "order": 1,
+        "parent": "qw-pe-dropzone1-1",
+        "ref": "header2",
+        "label": "Title"
+      },
+      {
+        "type": "header",
+        "order": 2,
+        "parent": "qw-pe-dropzone1-2",
+        "ref": "header3",
+        "label": "KPI"
+      },
+      {
+        "type": "header",
+        "order": 3,
+        "parent": "qw-pe-dropzone1-3",
+        "ref": "header4",
+        "label": "Comment"
+      }
+    ],
+    "settings": [
+      {
+        "type": "string",
+        "expression": "optional",
+        "defaultValue": "https://image.flaticon.com/icons/svg/189/189093.svg",
+        "order": 0,
+        "parent": "header1",
+        "ref": "image_address",
+        "label": "Address"
+      },
+      {
+        "type": "string",
+        "expression": "optional",
+        "defaultValue": "65",
+        "order": 1,
+        "parent": "header1",
+        "ref": "image_width",
+        "label": "Width (Pixels)"
+      },
+      {
+        "type": "boolean",
+        "expression": "optional",
+        "defaultValue": true,
+        "order": 0,
+        "parent": "header2",
+        "ref": "show_title",
+        "label": "Show Title"
+      },
+      {
+        "type": "string",
+        "expression": "optional",
+        "defaultValue": "Sales (USD)",
+        "order": 1,
+        "parent": "header2",
+        "ref": "kpi_title",
+        "label": "Label"
+      },
+      {
+        "type": "string",
+        "expression": "optional",
+        "defaultValue": "#808080",
+        "order": 3,
+        "parent": "header2",
+        "ref": "title_color",
+        "label": "Font Color"
+      },
+      {
+        "type": "string",
+        "expression": "optional",
+        "defaultValue": "21",
+        "order": 0,
+        "parent": "header3",
+        "ref": "number_size",
+        "label": "Font Size"
+      },
+      {
+        "type": "string",
+        "expression": "optional",
+        "defaultValue": "#808080",
+        "order": 1,
+        "parent": "header3",
+        "ref": "number_color",
+        "label": "Font Color"
+      },
+      {
+        "type": "boolean",
+        "expression": "optional",
+        "defaultValue": true,
+        "order": 0,
+        "parent": "header4",
+        "ref": "show_comment",
+        "label": "Show Comment"
+      },
+      {
+        "type": "string",
+        "expression": "optional",
+        "defaultValue": "▲ 20.2% vs last year",
+        "order": 1,
+        "parent": "header4",
+        "ref": "kpi_comment",
+        "label": "Label"
+      },
+      {
+        "type": "string",
+        "expression": "optional",
+        "defaultValue": "14",
+        "order": 2,
+        "parent": "header4",
+        "ref": "comment_size",
+        "label": "Font Size"
+      },
+      {
+        "type": "string",
+        "expression": "optional",
+        "defaultValue": "rgb(90, 150, 50)",
+        "order": 3,
+        "parent": "header4",
+        "ref": "comment_color",
+        "label": "Font Color"
+      },
+      {
+        "type": "string",
+        "expression": "optional",
+        "defaultValue": "12",
+        "order": 2,
+        "parent": "header1",
+        "ref": "image_padding",
+        "label": "Right Padding (Pixels)"
+      },
+      {
+        "type": "string",
+        "expression": "optional",
+        "defaultValue": "15",
+        "order": 2,
+        "parent": "header2",
+        "ref": "title_size",
+        "label": "Font Size"
+      }
+    ]
+  },
+  "dependencies": {}
+}

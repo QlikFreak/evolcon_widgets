@@ -1,0 +1,9 @@
+{
+  "name": "Evolcon Widget Library",
+  "type": "widget-library",
+  "widgets": [
+    "b35d02fb-1125-434e-a58c-5498af8f6b4a",
+    "d63a679b-d6e3-462a-bdbc-be25e7c6a040",
+    "5c23368f-106f-4a9f-b967-40610c486118"
+  ]
+}

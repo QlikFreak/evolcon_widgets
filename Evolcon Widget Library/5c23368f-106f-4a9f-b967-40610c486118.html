@@ -1,0 +1,100 @@
+<style>//=========================================================================
+// Parameters
+
+@kpi_align: {{settings.alignment}};
+@line_margin: 5%;
+
+@title_color: {{settings.title_color}};
+@title_size: {{settings.title_size}}px;
+
+@title_line_width: {{settings.title_line_width}}px;
+@title_line_color: {{settings.title_line_color}};
+@title_padding: {{settings.title_padding}}px;
+@title_margin: {{settings.title_margin}}px;
+
+@kpi_color: {{settings.kpi_color}};
+@kpi_size: {{settings.kpi_size}}px;
+
+@symbol_color: {{settings.symbol_color}};
+@symbol_size: {{settings.symbol_size}}px;
+
+@comment_line_width: {{settings.comment_line_width}}px;
+@comment_line_color: {{settings.comment_line_color}};
+@comment_margin: {{settings.comment_margin}}px;
+@comment_padding: {{settings.comment_padding}}px;
+
+@comment_color: {{settings.comment_color}};
+@comment_size: {{settings.comment_size}}px;
+
+
+
+//=========================================================================
+// CSS
+
+.container {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: @kpi_align;
+}
+
+
+.title {
+	line-height: 100%;
+	margin-left: @line_margin;
+	margin-right: @line_margin;
+	margin-bottom: @title_margin;
+	padding-bottom: @title_padding;
+	border-bottom: @title_line_width solid @title_line_color;
+	
+	color: @title_color;
+	font-size: @title_size;
+}
+
+
+.number {
+	line-height: 100%;
+	margin-left: @line_margin;
+	margin-right: @line_margin;
+	
+	color: @kpi_color;
+	font-size: @kpi_size;
+	
+	.symbol {
+		line-height: 0;
+		color: @symbol_color;
+		font-size: @symbol_size;
+	}
+}
+
+
+.comment {
+	line-height: 100%;
+	margin-left: @line_margin;
+	margin-right: @line_margin;
+	margin-top: @comment_margin;
+	padding-top: @comment_padding;
+	border-top: @comment_line_width solid @comment_line_color;
+	
+	color: @comment_color;
+	font-size: @comment_size;
+}</style>
+<div><div class="container">
+
+	<div class="title" ng-if="settings.show_title">
+		<p>{{settings.title_label}}</p>
+	</div>
+
+	<div class="number">
+		<p>
+			<span class="symbol" ng-if="settings.show_symbol">{{settings.symbol}}</span> 
+			{{data.rows[0].measures[0].qText}}
+		</p>
+	</div>
+	
+	<div class="comment" ng-if="settings.show_comment">
+		<p>{{settings.comment_label}}</p>
+	</div>
+	
+</div></div>

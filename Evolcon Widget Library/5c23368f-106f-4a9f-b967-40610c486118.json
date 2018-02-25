@@ -1,0 +1,305 @@
+{
+  "name": "Evolcon KPI",
+  "description": "KPI + labels + symbols + lines. Yeah, that's it.",
+  "author": "QlikFreak",
+  "library": "Evolcon",
+  "meta": {
+    "type": "kpi"
+  },
+  "properties": {
+    "measures": {
+      "min": 1,
+      "max": 1
+    },
+    "dimensions": {
+      "max": 0,
+      "min": 0
+    },
+    "sections": [
+      {
+        "type": "header",
+        "order": 4,
+        "parent": "qw-pe-dropzone1-4",
+        "ref": "header13",
+        "label": "Presentation"
+      },
+      {
+        "type": "header",
+        "order": 5,
+        "parent": "qw-pe-dropzone1-5",
+        "ref": "header14",
+        "label": "Title"
+      },
+      {
+        "type": "header",
+        "order": 6,
+        "parent": "qw-pe-dropzone1-6",
+        "ref": "header15",
+        "label": "Upper Line"
+      },
+      {
+        "type": "header",
+        "order": 7,
+        "parent": "qw-pe-dropzone1-7",
+        "ref": "header16",
+        "label": "KPI"
+      },
+      {
+        "type": "header",
+        "order": 4,
+        "parent": "qw-pe-dropzone1-4",
+        "ref": "header17",
+        "label": "Symbol"
+      },
+      {
+        "type": "header",
+        "order": 6,
+        "parent": "qw-pe-dropzone1-6",
+        "ref": "header19",
+        "label": "Comment"
+      },
+      {
+        "type": "header",
+        "order": 6,
+        "parent": "qw-pe-dropzone1-6",
+        "ref": "header20",
+        "label": "Lower Line"
+      }
+    ],
+    "settings": [
+      {
+        "component": "dropdown",
+        "type": "string",
+        "defaultValue": "center",
+        "options": [
+          {
+            "label": "Center",
+            "value": "center"
+          },
+          {
+            "label": "Left",
+            "value": "left"
+          },
+          {
+            "label": "Right",
+            "value": "right"
+          }
+        ],
+        "order": 0,
+        "parent": "header13",
+        "ref": "alignment",
+        "label": "Alignment"
+      },
+      {
+        "type": "boolean",
+        "expression": "optional",
+        "defaultValue": true,
+        "order": 0,
+        "parent": "header14",
+        "ref": "show_title",
+        "label": "Show Title"
+      },
+      {
+        "type": "string",
+        "expression": "optional",
+        "defaultValue": "KPI Title",
+        "order": 1,
+        "parent": "header14",
+        "ref": "title_label",
+        "label": "Label"
+      },
+      {
+        "type": "string",
+        "expression": "optional",
+        "defaultValue": "rgb(120, 120, 120)",
+        "order": 2,
+        "parent": "header14",
+        "ref": "title_color",
+        "label": "Color"
+      },
+      {
+        "type": "string",
+        "expression": "optional",
+        "defaultValue": "18",
+        "order": 3,
+        "parent": "header14",
+        "ref": "title_size",
+        "label": "Font Size"
+      },
+      {
+        "type": "string",
+        "expression": "optional",
+        "defaultValue": "10",
+        "order": 3,
+        "parent": "header15",
+        "ref": "title_margin",
+        "label": "Space After Line"
+      },
+      {
+        "type": "string",
+        "expression": "optional",
+        "defaultValue": "5",
+        "order": 2,
+        "parent": "header15",
+        "ref": "title_padding",
+        "label": "Space Before Line"
+      },
+      {
+        "type": "string",
+        "expression": "optional",
+        "defaultValue": "rgb(230, 230, 230)",
+        "order": 1,
+        "parent": "header15",
+        "ref": "title_line_color",
+        "label": "Color"
+      },
+      {
+        "type": "string",
+        "expression": "optional",
+        "defaultValue": "1",
+        "order": 0,
+        "parent": "header15",
+        "ref": "title_line_width",
+        "label": "Width"
+      },
+      {
+        "type": "string",
+        "expression": "optional",
+        "defaultValue": "32",
+        "order": 1,
+        "parent": "header16",
+        "ref": "kpi_size",
+        "label": "Font Size"
+      },
+      {
+        "type": "string",
+        "expression": "optional",
+        "defaultValue": "#e48b1b",
+        "order": 0,
+        "parent": "header16",
+        "ref": "kpi_color",
+        "label": "Color"
+      },
+      {
+        "type": "boolean",
+        "expression": "optional",
+        "defaultValue": false,
+        "order": 0,
+        "parent": "header17",
+        "ref": "show_symbol",
+        "label": "Show Symbol"
+      },
+      {
+        "type": "string",
+        "expression": "optional",
+        "defaultValue": "●",
+        "order": 1,
+        "parent": "header17",
+        "ref": "symbol",
+        "label": "Symbol"
+      },
+      {
+        "component": "textarea",
+        "defaultValue": "■ □ ● ▲ ▼ ► ◄ ⚠ ✔ ✖",
+        "rows": 3,
+        "maxlength": 512,
+        "order": 2,
+        "parent": "header17",
+        "ref": "suggestions",
+        "label": "Suggestions (Just in case)",
+        "type": "string"
+      },
+      {
+        "type": "string",
+        "expression": "optional",
+        "defaultValue": "rgb(220, 10, 10)",
+        "order": 3,
+        "parent": "header17",
+        "ref": "symbol_color",
+        "label": "Color"
+      },
+      {
+        "type": "string",
+        "expression": "optional",
+        "defaultValue": "45",
+        "order": 4,
+        "parent": "header17",
+        "ref": "symbol_size",
+        "label": "Font Size"
+      },
+      {
+        "type": "boolean",
+        "expression": "optional",
+        "defaultValue": false,
+        "order": 0,
+        "parent": "header19",
+        "ref": "show_comment",
+        "label": "Show Comment"
+      },
+      {
+        "type": "string",
+        "expression": "optional",
+        "defaultValue": "This is a comment",
+        "order": 1,
+        "parent": "header19",
+        "ref": "comment_label",
+        "label": "Label"
+      },
+      {
+        "type": "string",
+        "expression": "optional",
+        "defaultValue": "rgb(90, 90, 90)",
+        "order": 2,
+        "parent": "header19",
+        "ref": "comment_color",
+        "label": "Color"
+      },
+      {
+        "type": "string",
+        "expression": "optional",
+        "defaultValue": "18",
+        "order": 3,
+        "parent": "header19",
+        "ref": "comment_size",
+        "label": "Font Size"
+      },
+      {
+        "type": "string",
+        "expression": "optional",
+        "defaultValue": "1",
+        "order": 0,
+        "parent": "header20",
+        "ref": "comment_line_width",
+        "label": "Width"
+      },
+      {
+        "type": "string",
+        "expression": "optional",
+        "defaultValue": "rgb(230, 230, 230)",
+        "order": 1,
+        "parent": "header20",
+        "ref": "comment_line_color",
+        "label": "Color"
+      },
+      {
+        "type": "string",
+        "expression": "optional",
+        "defaultValue": "5",
+        "order": 2,
+        "parent": "header20",
+        "ref": "comment_margin",
+        "label": "Space Before Line"
+      },
+      {
+        "type": "string",
+        "expression": "optional",
+        "defaultValue": "10",
+        "order": 3,
+        "parent": "header20",
+        "ref": "comment_padding",
+        "label": "Space After Line"
+      }
+    ]
+  },
+  "dependencies": {}
+}

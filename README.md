@@ -53,10 +53,10 @@ KPI + labels + symbols + lines. Yeah, that's a lot.
 This widget only receives one expression and it has 6 parts (see the diagram below):
 
 * **Title**: First line. Usually displays the KPI name.
-* **Upper Line**: Line between the title and the KPI.
+* **Upper Line**: Line between the title and the KPI (the blue one).
 * **Symbol**: A label with independent color and size. Shares the same line with the KPI.
 * **KPI**: Your KPI. Shares the same line with the Symbol.
-* **Lower Line**: Line between the KPI and the comment.
+* **Lower Line**: Line between the KPI and the comment (the orange one).
 * **Comment**: Last line. Useful for comments or comparisons.
 <p align="center"><img src="https://qlikfreak.files.wordpress.com/2018/02/35_102.png"></p>
 
@@ -82,6 +82,11 @@ If you want to use an expression, you can do something like this:
 ```
 * You can adjust the space between and after both lines (pixels)
 * The **Symbol > Suggestions** section has no impact on the widget. it just contains common symbols that you can easily copy and paste.
+* If you increase the line width and make the color dynamic, you can create a weird/cool visual cue.
+
+## Super Relevant KPI
+Simple KPI... Actually it was just an experiment... It's not thaaaat useful, but it looks cool.
+<p align="center"><img src="https://qlikfreak.files.wordpress.com/2018/02/35_103.png"></p>
 
 ## Authors
 * **Evolcon** [Visit Website](http://evolcon.com/)

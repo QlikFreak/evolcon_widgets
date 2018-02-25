@@ -1,5 +1,5 @@
 # Evolcon Widget Library
-This is a widget library developed by Evolcon (well... duh...). It contains several objects
+This is a widget library developed by Evolcon (well... duh...). Right now, it contains 3 KPI objects, but we will update it frequently adding more and more visualizations (or at least, that's the plan).
 
 ## Getting Started
 
@@ -14,7 +14,7 @@ Although widget libraries can be imported from both QMC and Dev Hub, the uniquen
 3. Locate the ZIP file containing the widget library to import and then click **Open**.
 
 #### Demo App
-Don't forget to check the demo app included in this package. It contains some examples of all the widgets in the library. Even though there are some pointers in this guide, it's easier to understand how to configure them by looking at this QVF.
+Don't forget to check the demo app included in this package. It contains multiple examples of all the widgets in the library. Even though there are some pointers in this guide, it's easier to understand how to configure them by looking at this file. If you want to have this app available in your hub, just copy the QVF in this location: C:/Users/?????/Documents/Qlik/Sense/Apps/
 
 ## QlikFreak KPI
 Simple KPI with an image on the left.
@@ -28,7 +28,7 @@ This widget only receives one expression and it has 4 blocks:
 
 ### Notes
 
-* The image address doesn't need quotes or equals sign. Just past the link.
+* The image address doesn't need quotes or equals sign. Just paste the link.
 * When you define the width of the image, the height is calculated automatically.
 * **Right Padding** refers to the distance (pixels) between the image and the numbers.
 * All the labels can be static (just type in whatever you want) or dynamic (using Qlik expressions) 
@@ -48,12 +48,17 @@ If you want to use an expression, you can do something like this:
 
 ```
 ## Evolcon KPI
-KPI + labels + symbols + lines.
-<p align="center"><img src="https://qlikfreak.files.wordpress.com/2018/02/35_1011.png" width: 70%></p>
-This widget only receives one expression and it has 6 parts:
+KPI + labels + symbols + lines. Yeah, that's a lot.
+<p align="center"><img src="https://qlikfreak.files.wordpress.com/2018/02/35_1011.png" width: 60%></p>
+This widget only receives one expression and it has 6 parts (see the diagram below):
 
-* **Image**: Link to the image file (JPG, PNG, SVG, etc).
-
+* **Title**: First line. Usually displays the KPI name.
+* **Upper Line**: Line between the title and the KPI.
+* **Symbol**: A label with independent color and size. Shares the same line with the KPI.
+* **KPI**: Your KPI. Shares the same line with the Symbol.
+* **Lower Line**: Line between the KPI and the comment.
+* **Comment**: Last line. Useful for comments or comparisons.
+<p align="center"><img src="https://qlikfreak.files.wordpress.com/2018/02/35_102.png"></p>
 
 ## Authors
 * **Evolcon** [Visit Website](http://evolcon.com/)

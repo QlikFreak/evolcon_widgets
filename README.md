@@ -49,7 +49,7 @@ If you want to use an expression, you can do something like this:
 ```
 ## Evolcon KPI
 KPI + labels + symbols + lines. Yeah, that's a lot.
-<p align="center"><img src="https://qlikfreak.files.wordpress.com/2018/02/35_1011.png" width: 30%></p>
+<p align="center"><img src="https://qlikfreak.files.wordpress.com/2018/02/35_1011.png"></p>
 This widget only receives one expression and it has 6 parts (see the diagram below):
 
 * **Title**: First line. Usually displays the KPI name.
@@ -59,6 +59,29 @@ This widget only receives one expression and it has 6 parts (see the diagram bel
 * **Lower Line**: Line between the KPI and the comment.
 * **Comment**: Last line. Useful for comments or comparisons.
 <p align="center"><img src="https://qlikfreak.files.wordpress.com/2018/02/35_102.png"></p>
+
+### Notes
+
+* The alignment (left - center - right) applies to all the objects inside this widget.
+* The labels, lines and symbol can be hidden.
+* All the labels can be static (just type in whatever you want) or dynamic (using Qlik expressions) 
+```
+='Amount (USD): ' & money(sum(Sales))
+```
+* You can use RGB, HEX or [CSS colors](https://www.w3schools.com/cssref/css_colors.asp). If the color is static, you can type it directly in the box:
+```
+rgb(100, 50, 10)
+turquoise
+#FFF000
+```
+If you want to use an expression, you can do something like this:
+```
+=if(sum(Sales) > 1000, rgb(255, 50, 10), 
+ if(sum(Sales) > 500, 'turquoise', '#FFF000'))
+
+```
+* You can adjust the space between and after both lines (pixels)
+* The **Symbol > Suggestions** section has no impact on the widget. it just contains common symbols that you can easily copy and paste.
 
 ## Authors
 * **Evolcon** [Visit Website](http://evolcon.com/)
